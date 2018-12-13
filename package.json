@@ -1,0 +1,38 @@
+{
+  "name": "npm-astalavista",
+  "description": "When shall we three meet again? In thunder, lightning, or in rain?",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/sdrees/npm-astalavista",
+  "author": "Stefan Hagen <stefan@hagen.link> (https://stefan-hagen.website/)",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdrees/npm-astalavista.git"
+  },
+  "dependencies": {
+    "core-js": "^2.5.7",
+    "debounce": "^1.1.0",
+    "fpsmeter": "^0.3.1",
+    "fscreen": "^1.0.2",
+    "geolib": "^2.0.24",
+    "gsap": "^1.20.4",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.2",
+    "npm": "^6.1.0",
+    "object.entries": "^1.0.4",
+    "puppeteer": "^1.7.0",
+    "puppeteer-extra-plugin-flash": "^2.0.7",
+    "rand-id": "^1.0.0",
+    "re-resizable": "^4.0.2",
+    "recompose": "^0.27.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "why-did-you-update": "^0.1.1"
+  },
+  "scripts": {
+    "test": "set -e; echo 'OK'"
+  }
+}
