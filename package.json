@@ -27,12 +27,16 @@
     "rand-id": "^1.0.0",
     "re-resizable": "^4.0.2",
     "recompose": "^0.27.1",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "why-did-you-update": "^0.1.1"
   },
   "scripts": {
-    "test": "set -e; echo 'OK'"
-  }
+    "test": "set -e; echo 'OK'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
